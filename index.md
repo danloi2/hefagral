@@ -1,6 +1,6 @@
 ---
-title: TFM en Acción
-subtitle: Diseña tu Proyecto en Tecnología Educativa
+title: GRAL Hezkuntza graduetan
+subtitle: Zure GRALaren informazio-gunea
 subject: Página Principal
 # epigraph: No funciona
 # abstract: Resumen corto
@@ -15,7 +15,7 @@ site:
 ---
 
 :::{hero}
-Proyecto de {orange}`Trabajo Fin de Máster`
+{orange}`GRAL`a modu errazean
 :::
 
 :::{epigraph}
@@ -26,57 +26,47 @@ No hay edad que me parezca demasiado tardía para aprender lo que es necesario.
 -- San Agustín (354-430)
 :::
 
+{large}`Ongi etorri zure etorkizuneko **GRAL**a kalitatez egiteko **informazio-gunera**! <br> Zure bide profesionala eraikitzen lagunduko dizun espazioa da hau. Ausartu eta atera onena!`
 
+# Zein da informazio-gune honek zure baitan bilatzen duen eraldaketa?
 
+Informazio-gune honek zure baitan bilatzen duen eraldaketa ikerketa-proiektuaren {term}`MARKO KONTZEPTUALA` eraikitzeko gaitasun kritikoa garatzea da. Helburua da gaiaren garrantzia eta proposatutako bitartekoen egokitasuna justifikatzeko, ikerketaren koherentzia eta sendotasuna bermatzeko, eta hezkuntza arloko ikerketa zientifikoaren oinarriak ulertzeko laguntzea. Horretarako, gune honek tresnak, orientabideak eta adibideak eskainiko dizkizu, zure ikerketaren arrazoiak mugatu eta argi definitzeko, teoriaren eta metodologiaren arteko lotura indartuz.
 
-{large}`¡Bienvenidos a una experiencia de aprendizaje en la que diseñarás *un primer esbozo de calidad* de tu futuro **Trabajo Fin de Máster**!`
+Azkenean, bilatzen den eraldaketa da ikerketaren norabidea argi ikustea, oinarri teoriko sendoa izatea eta ezagutza-eremuaren hutsuneak identifikatzeko gaitasuna garatzea, zure GRALaren kalitatea eta ekarpen akademikoa handituz. Prozesu honetan, amaieran gai izango zara {term}`Gradu Amaierako Lana` diseinatzeko, printzipio etiko, teoriko eta metodologikoetan oinarrituta, hezkuntza-ikerketaren sendotasuna eta garrantzia bermatuko dituena. Horrek ahalduntzen zaitu kompetentzia garrantzitsuak garatzeko, proiektu sendo bat egituratu, justifikatu eta aurkezteko, etorkizuneko ikerketen oinarriak ezarriz.
 
+Hau guztia galdera garrantzitsu honetan laburbiltzen da:
 
-
-:::{admonition} Información del Profesorado
-:class: dropdown
-
-Mi nombre es [DANIEL LOSADA](https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es), Profesor Titular de la [UPV/EHU](https://www.ehu.eus/es) y coordinador de esta asigntura. Mis compañeros [HÉCTOR GALINDO](https://ekoizpen-zientifikoa.ehu.eus/investigadores/128701/detalle) y [LUCÍA CAMPO](https://ekoizpen-zientifikoa.ehu.eus/investigadores/460495/detalle) también forman parte del equipo docente de esta asignatura.
-:::
-
-## ¿Qué transformación busca esta asignatura sobre ti?
-
-A lo largo de estas **próximas tres semanas**, te invitamos a embarcarte en un viaje de descubrimiento y experimentación en la planificación de tu propio **PROYECTO DE TRABAJO FIN DE MÁSTER** en **TÉCNOLOGÍA EDUCATIVA**.  
-
-Te centrarás en desarrollar el **{term}`MARCO CONCEPTUAL`** de tu investigación, que es el núcleo fundamental de cualquier investigación rigurosa. Todo esto se reduce a la siguiente pregunta clave:  
 
 :::{pull-quote}
-¿Cómo se diseña un **ESTUDIO CIENTÍFICO** en el ámbito de la **TECNOLOGÍA EDUCATIVA**? 
+Nola diseinatzen da **IKERKETA ZIENTIFIKO** bat **HEZKUNTZA** eremuan?
 :::
 
-## ¿Qué vas a hacer en la Situacion de Aprendizaje?
 
-Al finalizar, diseñarás un **PROYECTO DE TRABAJO FIN DE MÁSTER**, fundamentado en principios éticos, teóricos y metodológicos que garanticen el rigor y la relevancia de la investigación educativa. Todo esto lo lograrás a través del desarrollo de competencias clave que te permitirán estructurar, justificar y presentar un proyecto sólido, capaz de sentar las bases para investigaciones futuras en el ámbito educativo y para la elaboración de tu Trabajo Fin de Máster en Educación Digital.
+## Zeintzuk dira gomendatzen diren irakurgaiak?
 
-## ¿Cuáles son las lecturas obligatorias?
+GRALa egiteko, honako irakurketa hauek interegarriak dira:
 
-Las lecturas necesarias para llevar a cabo las tareas son las siguientes: @lecturas
 
-::: {list-table} Lista de Lecturas Obligatorias
+::: {list-table} GRALa egiteko Gomendatutako irakurgaiak
 :header-rows: 1
 :label: lecturas
 
-   *  - **Apartados del TFM**
-      - **Documentos**
-   *  - **(1) Estructura Básica del Proyecto de TFM**
+   *  - **GRALaren atalak**
+      - **Dokumentuak**
+   *  - **(1) GRALaren oinarrizko egitura**
       - [Guía Didáctica](recursos/2025_TFM.pdf) \
       *Capítulo 2. ¿Qué pasos debo dar? Fases del proceso y elementos del proyecto* \
       {cite:p}`2017navarro2`
-   *  - **(2) Selección del Tema**
+   *  - **(2) Gaiaren Aukeraketa**
       - *Capítulo 3. ¿Por dónde empiezo? Selección del tema y redacción del trabajo* \
       {cite:p}`2017navarro3`
-   *  - **(3) Marco Conceptual**
+   *  - **(3) Marko Kontzeptuala**
       - *Capítulo 5. Definiendo el marco conceptual y las preguntas de investigación* \
       {cite:p}`2021jorrin5`
-   *  - **(4) Recogida de Datos**
+   *  - **(4) Datuen bilketa**
       - *Capítulo 7. ¿Necesito recoger información de los avances? Técnicas e instrumentos* \
       {cite:p}`2017navarro7`
-   *  - **(5) Análisis de Datos**
+   *  - **(5) Datuen Analisia**
       - *Capítulo 7. Definiendo los procedimientos de análisis de datos y sus apoyos tecnológicos* \
       {cite:p}`2021jorrin7`\
       *Capítulo 8. ¿Cómo sé si he conseguido los objetivos? El análisis de información cuantitativa*  \
@@ -85,13 +75,13 @@ Las lecturas necesarias para llevar a cabo las tareas son las siguientes: @lectu
       {cite:p}`2017navarro9` \
       *Estadística* \
       {cite:p}`2020galindo`
-  *   - **(6) Rigor Científico**
+  *   - **(6) Zorroztasun Zientifikoa**
       - *Capítulo 8.- Definiendo estrategias de validez y veracidad*
          {cite:p}`2021jorrin8`
-  *   - **(7) Principios Éticos**
+  *   - **(7) Hastapen Etikoak**
       - *Capítulo 9. Procedimientos y principios éticos de la investigación* \
       {cite:p}`2021jorrin9`\.
-  *   - **(8) Cuestiones Fundamentales sobre la Redacción del Informe**
+  *   - **(8) Txostena egiteko Oiknarrizko Osagaiak**
       - *Capítulo 10. Redacción del informe de investigación* \
         {cite:p}`2021jorrin10` \
          *APA 7* \
@@ -99,25 +89,26 @@ Las lecturas necesarias para llevar a cabo las tareas son las siguientes: @lectu
          {cite:p}`2022apaehu`
 :::
 
-## ¿Qué te llevarás de esta asignatura? 
+# Zer eramango duzu Informazio-Gune honetatik? 
 
-Las competencias investigadoras necesarias para planificar el **{term}`MARCO CONCEPTUAL`**  con los elementos esenciales de un proyecto de investigación en Tecnología Educativa:
- 
-- Seleccionar la **TEMÁTICA** de tu investigación realista, teniedo en cuenta tus intereses y necesidades.
+**MARKO KONTZEPTUALA*** planifikatzeko beharrezkoak diren ikerketa-konpetentziak garatzeko tresna paregabea duzu erabiltzeko:
 
-- Reflexionar sobre tu **POSICIONAMIENTO CIÉNTIFICO** como investigador. 
+- Zure ikerketa errealistatik **GAIA** aukeratzea, zure interesak eta beharrak kontuan hartuta.
 
-- Realizar una **REVISIÓN DE LA LITERATURA** sistemática inicial y actualizada.
+- Ikertzaile zaren aldetik, zure **JARRERA ZIENTIFIKOA** ri buruz hausnartzea.
 
-- Definir un **PROBLEMA DE INVESTIGACIÓN** relevante y viable.
+-***LITERATURAREN BERRIKUSPENA** egitea, hasierako sistematikoa eta eguneratua.
 
-- Establecer las **PREGUNTAS DE INVESTIGACIÓN** pertinentes y claras.
+-***IKERKETA-ARAZO** garrantzitsu eta bideragarri bat definitzea.
 
-- Formular los **OBJETIVO GENERAL Y ESPECÍFICOS** de forma precisa y alcanzable.
+-**IKERKETA-GALDERA** egokiak eta argiak ezartzea.
 
-- Selecciono un **DISEÑO DE INVESTIGACIÓN** adecuado al contexto y a los objetivos planteados, que cumpla con los estándares éticos más rigurosos.
+-***HELBURU OROKORRA ETA ESPEZIFIKOAK** zehatz-mehatz eta lortzeko moduan formulatzea.
 
-## ¿Cuál es el Itinerario de Aprendizaje?
+- Testuinguruari eta planteatutako helburuei egokitutako **IKERKETA DISEINUA** aukeratzea, estandar etiko zorrotzenak betetzen dituena.
+
+
+# Zein da GRAL baten bidea?
 
 Durante el curso desarrollarás 8 actividades clave: @actividades
 
@@ -125,10 +116,10 @@ Durante el curso desarrollarás 8 actividades clave: @actividades
 :header-rows: 1
 :label: actividades
 
-   *  - Actividad
+   *  - Prozesuaren Atala
       - Formato de Entrega
       - Fecha de Entrega
-   *  - [](021objetivosp.md)
+   *  - @021objetivosp.md
       - Video Presentación
       - 5/02/2025
    *  - [](022posicion.md)
@@ -195,33 +186,6 @@ Todas las actividades se entregan en los foros del campus virtual, excepto el Pr
 Para más detalles sobre cada actividad y acceso a las lecturas, consulta el campus virtual. Recuerda que seguiremos las normas {cite:author}`apaweb` 7ª edición para todas las referencias y citas.
 :::
 
-:::{glossary}
-Taxonomía de Bloom
-: La Taxonomía de Bloom es un modelo que clasifica los niveles de aprendizaje en una jerarquía de menor a mayor complejidad y se usa ampliamente en educación para diseñar objetivos de aprendizaje y evaluar el desarrollo cognitivo. Fue desarrollada por Benjamin Bloom en 1956 y revisada en 2001. Se compone de seis niveles: (1) Recordar – Evocar información previamente aprendida; (2) Comprender – Explicar ideas o conceptos; (3) Aplicar – Usar el conocimiento en situaciones nuevas; (4) Analizar – Descomponer información y establecer relaciones; (5) Evaluar – Formular juicios y justificar decisiones; (6) Crear – Generar ideas o productos originales.
 
-Recordar
-: Uso y dominio de la memoria a largo plazo
 
-Comprender
-: Comprensión de las ideas y de los conceptos
-
-Aplicar
-: Poner en práctica los procedimientos aprendidos para resolver problemas 
-en contextos nuevos
-
-Analizar
-: Capacidad de fragmentar la información, descomponerla y relacionarla
-
-Evaluar
-: Emitir juicios de valor, justificar y defender opiniones	
-
-Crear
-: "Utilizar lo aprendido y las habilidades adquiridas para construir ideas nuevas.	
-:::
-
-:::{pull-quote}
-Prepárate para transformar la educación y marcar la diferencia.
- 
--- Dani
-:::
 
