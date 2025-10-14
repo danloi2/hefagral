@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SVG export of the Gantt chart (Gradu Amaierako Lanaren Kronograma) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" viewBox="0 0 1200 700" role="img">
+  <title>Gradu Amaierako Lanaren Kronograma</title>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .bg { fill: #ffffff }
+      .axis { stroke: #1f2937; stroke-width: 1 }
+      .grid { stroke: #e5e7eb; stroke-width: 1 }
+      .label { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #111827 }
+      .title { font-size: 24px; font-weight: 700 }
+      .section { font-size: 18px; font-weight: 700; fill: #374151 }
+      .task-name { font-size: 14px; fill: #111827 }
+      .month { font-size: 14px; font-weight: 600; fill: #111827 }
+    ]]></style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#fff" />
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" class="title label">Gradu Amaierako Lanaren Kronograma</text>
+
+  <!-- Layout settings -->
+  <!-- left column for task names -->
+  <!-- timeline across the top -->
+
+  <!-- Configuration taken from original JS -->
+  <!-- months and tasks hard-coded to match the original component -->
+
+  <!-- Timeline header -->
+  <!-- left column width -->
+  <g transform="translate(0,70)">
+    <rect x="0" y="0" width="300" height="30" fill="transparent" />
+    <!-- months area -->
+    <g transform="translate(300,0)">
+      <!-- months (10) -->
+      <!-- month width computed to fit remaining width (900) -->
+      <!-- each month 90px -->
+      <!-- month labels -->
+      <text x="450" y="20" text-anchor="middle" class="month label">Timeline (Urt 2025 — Eka 2026)</text>
+    </g>
+  </g>
+
+  <!-- Define months array and helper positions -->
+  <!-- We'll draw the header months and vertical grid lines -->
+  <g transform="translate(0,110)">
+    <!-- draw month labels and vertical grid -->
+    <!-- left column background -->
+    <rect x="0" y="0" width="300" height="520" fill="transparent" />
+
+    <!-- timeline area background -->
+    <g transform="translate(300,0)">
+      <!-- horizontal span for months -->
+      <rect x="0" y="0" width="900" height="520" fill="transparent" />
+
+      <!-- months and vertical grid -->
+      <!-- months list: '2025-09'..'2026-06' -->
+      <!-- monthNames mapping: ['Urt','Ots','Mar','Api','Mai','Eka','Uzt','Abu','Ira','Urr','Aza','Abe'] -->
+      <!-- We'll compute display for each month manually -->
+      <!-- month width -->
+    </g>
+
+    <!-- We'll render tasks below -->
+  </g>
+
+  <!-- JavaScript-free static layout computed for the tasks from the original component -->
+  <!-- Constants used below -->
+  <!-- leftWidth = 300, timelineWidth = 900, monthCount = 10, monthW = 90 -->
+
+  <!-- Months row (header) -->
+  <g transform="translate(300,70)">
+    <!-- month labels -->
+    <!-- months array -->
+    <!-- 0: 2025-09 (Ira 2025) -> note monthNames in original were ['Urt','Ots','Mar','Api','Mai','Eka','Uzt','Abu','Ira','Urr','Aza','Abe'] so index 9 -> Urr? but original mapping likely intended Basque abbreviations. We'll use: Urt,Ots,Mar,Api,Mai,Eka,Uzt,Abu,Ira,Urr,Aza,Abe --> using numeric months accordingly --> -->
+    <!-- For clarity we'll label as: Ira 2025 (Sept), Urr 2025 (Oct)... but to match the original format (monthNames[parseInt(m)-1]) we produce: 'Ira' for 09, 'Urr' for 10, 'Aza' 11, 'Abe' 12, 'Urt' 01, 'Ots' 02, 'Mar' 03, 'Api' 04, 'Mai' 05, 'Eka' 06 -->
+
+    <!-- Draw vertical grid and month labels -->
+    <!-- monthWidth = 90 -->
+    <g>
+      <!-- grid lines and labels -->
+      <!-- months positions 0..9 -->
+      <!-- We'll loop visually by writing each element -->
+      <g>
+        <rect x="0" y="0" width="900" height="40" fill="transparent" />
+        <!-- month 0: 2025-09 -> Ira 2025 -->
+        <line x1="0" y1="40" x2="0" y2="520" class="grid" />
+        <text x="45" y="28" text-anchor="middle" class="month label">Ira 2025</text>
+        <!-- month 1: 2025-10 -> Urr 2025 -->
+        <line x1="90" y1="40" x2="90" y2="520" class="grid" />
+        <text x="135" y="28" text-anchor="middle" class="month label">Urr 2025</text>
+        <!-- month 2: 2025-11 -> Aza 2025 -->
+        <line x1="180" y1="40" x2="180" y2="520" class="grid" />
+        <text x="225" y="28" text-anchor="middle" class="month label">Aza 2025</text>
+        <!-- month 3: 2025-12 -> Abe 2025 -->
+        <line x1="270" y1="40" x2="270" y2="520" class="grid" />
+        <text x="315" y="28" text-anchor="middle" class="month label">Abe 2025</text>
+        <!-- month 4: 2026-01 -> Urt 2026 -->
+        <line x1="360" y1="40" x2="360" y2="520" class="grid" />
+        <text x="405" y="28" text-anchor="middle" class="month label">Urt 2026</text>
+        <!-- month 5: 2026-02 -> Ots 2026 -->
+        <line x1="450" y1="40" x2="450" y2="520" class="grid" />
+        <text x="495" y="28" text-anchor="middle" class="month label">Ots 2026</text>
+        <!-- month 6: 2026-03 -> Mar 2026 -->
+        <line x1="540" y1="40" x2="540" y2="520" class="grid" />
+        <text x="585" y="28" text-anchor="middle" class="month label">Mar 2026</text>
+        <!-- month 7: 2026-04 -> Api 2026 -->
+        <line x1="630" y1="40" x2="630" y2="520" class="grid" />
+        <text x="675" y="28" text-anchor="middle" class="month label">Api 2026</text>
+        <!-- month 8: 2026-05 -> Mai 2026 -->
+        <line x1="720" y1="40" x2="720" y2="520" class="grid" />
+        <text x="765" y="28" text-anchor="middle" class="month label">Mai 2026</text>
+        <!-- month 9: 2026-06 -> Eka 2026 -->
+        <line x1="810" y1="40" x2="810" y2="520" class="grid" />
+        <text x="855" y="28" text-anchor="middle" class="month label">Eka 2026</text>
+        <!-- final right grid line -->
+        <line x1="900" y1="40" x2="900" y2="520" class="grid" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Tasks rendering -->
+  <!-- We'll list tasks in the same order as original array; compute y position for each -->
+  <!-- rowHeight = 52, first row y = 150 (approx) -->
+
+  <g transform="translate(0,150)">
+    <!-- helper values: leftWidth=300, monthW=90 -->
+
+    <!-- Task 0 -->
+    <g>
+      <text x="20" y="18" class="task-name label">MARKO KONTZEPTUALA ezarri</text>
+      <!-- start 2025-09 (pos 0), end 2025-12 (pos 3) -> width = (3-0+1)=4 months -> width=4*90=360 -->
+      <rect x="300" y="0" width="360" height="28" rx="6" ry="6" fill="#3B82F6" />
+    </g>
+
+    <!-- Task 1 -->
+    <g transform="translate(0,52)">
+      <text x="20" y="18" class="task-name label">ESPARRU TEORIKOA mugatu</text>
+      <!-- start 2025-09 (0) end 2026-05 (8) -> months=9 -> width=810, but timeline is 900 so it fits -->
+      <rect x="300" y="0" width="810" height="28" rx="6" ry="6" fill="#3B82F6" />
+    </g>
+
+    <!-- Task 2 -->
+    <g transform="translate(0,104)">
+      <text x="20" y="18" class="task-name label">INFORMANTEAK aukeratu</text>
+      <!-- 2025-11 (pos2) to 2025-12 (pos3) -> months=2 -> width=180; left = 300+2*90=480 -->
+      <rect x="480" y="0" width="180" height="28" rx="6" ry="6" fill="#3B82F6" />
+    </g>
+
+    <!-- Task 3 -->
+    <g transform="translate(0,156)">
+      <text x="20" y="18" class="task-name label">TRESNAK sortu</text>
+      <!-- 2025-11 (2) to 2026-02 (5) -> months = 4 -> width=360; left = 300+2*90=480 -->
+      <rect x="480" y="0" width="360" height="28" rx="6" ry="6" fill="#3B82F6" />
+    </g>
+
+    <!-- Task 4 -->
+    <g transform="translate(0,208)">
+      <text x="20" y="18" class="task-name label">LANDA LANA</text>
+      <!-- 2025-11 (2) to 2026-02 (5) -> same as previous, green -->
+      <rect x="480" y="0" width="360" height="28" rx="6" ry="6" fill="#10B981" />
+    </g>
+
+    <!-- Task 5 -->
+    <g transform="translate(0,260)">
+      <text x="20" y="18" class="task-name label">DATUEN analisia</text>
+      <!-- 2026-03 (6) to 2026-04 (7) -> months=2 -> width=180; left = 300+6*90=840 -->
+      <rect x="840" y="0" width="180" height="28" rx="6" ry="6" fill="#F59E0B" />
+    </g>
+
+    <!-- Task 6 -->
+    <g transform="translate(0,312)">
+      <text x="20" y="18" class="task-name label">EMAITZEN deskribapena</text>
+      <!-- same 2026-03 to 2026-04 -->
+      <rect x="840" y="0" width="180" height="28" rx="6" ry="6" fill="#F59E0B" />
+    </g>
+
+    <!-- Task 7 -->
+    <g transform="translate(0,364)">
+      <text x="20" y="18" class="task-name label">EMAITZEN eztabaida</text>
+      <!-- 2026-04 (7) to 2026-05 (8) -> months=2 -> width=180; left = 300+7*90=930 -->
+      <rect x="930" y="0" width="180" height="28" rx="6" ry="6" fill="#F59E0B" />
+    </g>
+
+    <!-- Task 8 -->
+    <g transform="translate(0,416)">
+      <text x="20" y="18" class="task-name label">ONDORIOAK identifikatu</text>
+      <!-- 2026-05 (8) to 2026-06 (9) -> months=2 -> width=180; left = 300+8*90=1020 -->
+      <rect x="1020" y="0" width="180" height="28" rx="6" ry="6" fill="#F59E0B" />
+    </g>
+
+    <!-- Task 9 -->
+    <g transform="translate(0,468)">
+      <text x="20" y="18" class="task-name label">TXOSTENA idatzi</text>
+      <!-- 2025-09 (0) to 2026-06 (9) -> months=10 -> width=900; left=300 -->
+      <rect x="300" y="0" width="900" height="28" rx="6" ry="6" fill="#8B5CF6" />
+    </g>
+
+  </g>
+
+  <!-- Vertical separators for the left column and timeline -->
+  <line x1="300" y1="70" x2="300" y2="650" stroke="#111827" stroke-width="1.5" />
+
+  <!-- Legend -->
+  <g transform="translate(950,20)">
+    <rect x="0" y="0" width="220" height="120" rx="8" fill="#ffffff" stroke="#e5e7eb" />
+    <text x="110" y="22" text-anchor="middle" class="label" style="font-weight:700">Legend</text>
+    <g>
+      <rect x="12" y="36" width="18" height="12" rx="3" fill="#3B82F6" />
+      <text x="36" y="46" class="label" style="font-size:13px">(A) PLANIFIKAZIOA</text>
+    </g>
+    <g>
+      <rect x="12" y="56" width="18" height="12" rx="3" fill="#10B981" />
+      <text x="36" y="66" class="label" style="font-size:13px">(B) INFORMAZIOA JASOTZEA</text>
+    </g>
+    <g>
+      <rect x="12" y="76" width="18" height="12" rx="3" fill="#F59E0B" />
+      <text x="36" y="86" class="label" style="font-size:13px">(C) ANALISIA</text>
+    </g>
+    <g>
+      <rect x="12" y="96" width="18" height="12" rx="3" fill="#8B5CF6" />
+      <text x="36" y="106" class="label" style="font-size:13px">(D) ZABALTZEA</text>
+    </g>
+  </g>
+
+</svg>

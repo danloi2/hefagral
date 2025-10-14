@@ -150,12 +150,11 @@ Durante el curso desarrollarás 8 actividades clave: @actividades
       - (6) Sortu
       - Maiatza
 :::
-
-# Mi Cronograma
-
-<iframe src="crono.html" width="100%" height="800px" frameborder="0"></iframe>
-
-
+```{image} crono.svg
+:alt: Grapes on a vineyard
+:width: 800px
+:align: center
+```
 
 :::{mermaid}
 :name:gralbidea

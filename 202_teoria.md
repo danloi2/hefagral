@@ -19,20 +19,17 @@ site:
 # Introducción
 
 
-
-
-
 3. **CREA** una infografía utilizando una herramienta web 2.0 que recoja tu posicionamiento como investigador.
 
 4. **COMPARTE** tu infografía en el Espacio Virtual de Aprendizaje, participando en un debate colaborativo con los compañeros del grupo.  
 
 # Recursos
 
-### Lecturas
+## Lecturas
 
 - [ ] Capítulo 2. ¿Qué pasos debo dar? Fases del proceso y elementos del proyecto {cite:p}`2017navarro2`
 
-### Recursos TIC 
+## Recursos TIC 
 
 :::{iframe} https://view.genially.com/6746ef717d0d0098a8aa6132
 :width: 100%
