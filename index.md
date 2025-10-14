@@ -153,7 +153,7 @@ Durante el curso desarrollarás 8 actividades clave: @actividades
 
 # Mi Cronograma
 
-<iframe src="_static/crono.html" width="100%" height="800px" frameborder="0"></iframe>
+<iframe src="crono.html" width="100%" height="800px" frameborder="0"></iframe>
 
 
 
