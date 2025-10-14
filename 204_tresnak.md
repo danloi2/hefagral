@@ -1,6 +1,5 @@
 ---
-title: 0
-4. Datuak edo Aztergai dauden elementuak jasotzeko tresnak AUKERATU edota SORTU
+title: 04. Datuak edo Aztergai dauden elementuak jasotzeko tresnak AUKERATU edota SORTU
 subtitle: Defiendo mi Problema de Investigación
 subject: Marco Conceptual
 site:

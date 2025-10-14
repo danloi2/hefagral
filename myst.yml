@@ -108,6 +108,10 @@ site:
       twitter: dani_losada
       logo_text: GRADU AMAIERAKO LANA HEFAn (2025)
       folders: true
+  
+sphinx:
+  config:
+    html_static_path: ['_static']
       
 
 

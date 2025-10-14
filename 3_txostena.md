@@ -1,5 +1,5 @@
 ---
-title: Zeintzuk dira Txostenaren Atalak?
+title: Zeintzuk dira Txostenaren Atalak? 
 subtitle: El planteamiento de la Investigación
 subject: Proyecto de Trabajo Fin de Máster
 site:

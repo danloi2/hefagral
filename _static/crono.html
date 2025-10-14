@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma GAL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+    
+    <script type="text/babel">
+        const { useState } = React;
+        
+        const GanttChart = () => {
+          const tasks = [
+            { section: '(A) PLANIFIKAZIOA', name: 'MARKO KONTZEPTUALA ezarri', start: '2025-09', end: '2025-12', color: 'bg-blue-500' },
+            { section: '(A) PLANIFIKAZIOA', name: 'ESPARRU TEORIKOA mugatu', start: '2025-09', end: '2026-05', color: 'bg-blue-500' },
+            { section: '(A) PLANIFIKAZIOA', name: 'INFORMANTEAK aukeratu', start: '2025-11', end: '2025-12', color: 'bg-blue-500' },
+            { section: '(A) PLANIFIKAZIOA', name: 'TRESNAK sortu', start: '2025-11', end: '2026-02', color: 'bg-blue-500' },
+            { section: '(B) INFORMAZIOA JASOTZEA', name: 'LANDA LANA', start: '2025-11', end: '2026-02', color: 'bg-green-500' },
+            { section: '(C) ANALISIA', name: 'DATUEN analisia', start: '2026-03', end: '2026-04', color: 'bg-yellow-500' },
+            { section: '(C) ANALISIA', name: 'EMAITZEN deskribapena', start: '2026-03', end: '2026-04', color: 'bg-yellow-500' },
+            { section: '(C) ANALISIA', name: 'EMAITZEN eztabaida', start: '2026-04', end: '2026-05', color: 'bg-yellow-500' },
+            { section: '(C) ANALISIA', name: 'ONDORIOAK identifikatu', start: '2026-05', end: '2026-06', color: 'bg-yellow-500' },
+            { section: '(D) ZABALTZEA', name: 'TXOSTENA idatzi', start: '2025-09', end: '2026-06', color: 'bg-purple-500' },
+          ];
+
+          const months = [
+            '2025-09', '2025-10', '2025-11', '2025-12',
+            '2026-01', '2026-02', '2026-03', '2026-04', '2026-05', '2026-06'
+          ];
+
+          const getMonthPosition = (date) => {
+            return months.indexOf(date);
+          };
+
+          const getBarWidth = (start, end) => {
+            const startPos = getMonthPosition(start);
+            const endPos = getMonthPosition(end);
+            return ((endPos - startPos + 1) / months.length) * 100;
+          };
+
+          const getBarLeft = (start) => {
+            return (getMonthPosition(start) / months.length) * 100;
+          };
+
+          const formatMonth = (month) => {
+            const [year, m] = month.split('-');
+            const monthNames = ['Urt', 'Ots', 'Mar', 'Api', 'Mai', 'Eka', 'Uzt', 'Abu', 'Ira', 'Urr', 'Aza', 'Abe'];
+            return `${monthNames[parseInt(m) - 1]} ${year}`;
+          };
+
+          const groupedTasks = tasks.reduce((acc, task) => {
+            if (!acc[task.section]) {
+              acc[task.section] = [];
+            }
+            acc[task.section].push(task);
+            return acc;
+          }, {});
+
+          return (
+            <div className="w-full p-8 bg-white">
+              <h1 className="text-3xl font-bold text-center mb-12">Gradu Amaierako Lanaren Kronograma</h1>
+              
+              <div className="mb-8">
+                <div className="flex border-b-2 border-gray-800">
+                  <div className="w-64"></div>
+                  <div className="flex-1 flex">
+                    {months.map((month, idx) => (
+                      <div 
+                        key={idx} 
+                        className="flex-1 text-center pb-2"
+                        style={{ fontSize: '20px', fontWeight: '600' }}
+                      >
+                        {formatMonth(month)}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {Object.entries(groupedTasks).map(([section, sectionTasks]) => (
+                <div key={section} className="mb-8">
+                  <h2 className="text-2xl font-bold mb-4 text-gray-800">{section}</h2>
+                  {sectionTasks.map((task, idx) => (
+                    <div key={idx} className="flex items-center mb-3">
+                      <div className="w-64 pr-4">
+                        <span className="text-lg font-medium">{task.name}</span>
+                      </div>
+                      <div className="flex-1 relative h-12">
+                        <div className="absolute inset-0 flex">
+                          {months.map((_, i) => (
+                            <div key={i} className="flex-1 border-r border-gray-200"></div>
+                          ))}
+                        </div>
+                        <div 
+                          className={`absolute ${task.color} h-10 rounded flex items-center justify-center text-white font-semibold shadow-md`}
+                          style={{
+                            left: `${getBarLeft(task.start)}%`,
+                            width: `${getBarWidth(task.start, task.end)}%`,
+                            top: '4px'
+                          }}
+                        >
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          );
+        };
+
+        ReactDOM.render(<GanttChart />, document.getElementById('root'));
+    </script>
+</body>
+</html>

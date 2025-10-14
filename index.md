@@ -117,32 +117,82 @@ Durante el curso desarrollarás 8 actividades clave: @actividades
 :label: actividades
 
    *  - Prozesuaren Atala
-      - Formato de Entrega
+      - Bloom Taxonomia
       - Fecha de Entrega
-   *  - @021objetivosp.md
-      - Video Presentación
-      - 5/02/2025
-   *  - [](022posicion.md)
-      - Infografía
-      - 7/02/2025
-   *  - [](023bases.md)
-      - Mapa Conceptual
-      - 12/02/2025
-   *  - [](024problema.md)
-      - Presentación Interactiva
-      - 14/02/2025
-   *  - [](025preguntas.md)
-      - Diagrama Visual
-      - 18/02/2025
-   *  - [](026diseno.md)
-      - Mural o tablero digital
-      - 20/02/2025
-   *  - [](031proyecto.md)
-      - PDF
-      - 23/02/2025
-   *  - (8) Reflexión
-      - Prueba Escrita (Examen)
-      - 13/05/2025
+   *  - @201_marko.md
+      - (1) Ezagutu
+      - Irailetik Abendura
+   *  - [](202_teoria.md)
+      - (2) Ulertu
+      - Irailetik Ekainera
+   *  - [](203_informanteak.md)
+      - (1) Ezagutu
+      - Azarotik Abendura
+   *  - [](204_tresnak.md)
+      - (6) Sortu
+      - Azarotik Otsailera
+   *  - [](205_landa.md)
+      - (3) Aplikatu
+      - Azarotik Otsailera
+   *  - [](206_analisia.md)
+      - (4) Analizatu
+      - Martxoa
+   *  - [](207_emaitzak)
+      - (2) Ulertu
+      - Apirila
+   *  - [](208_eztabaida.md)
+      - (5) Ebaluatu
+      - Maiatza
+   *  - [](209_ondorioak.md)
+      - (5) Ebaluatu
+      - Maiatza
+   *  - [](210_idatzi.md)
+      - (6) Sortu
+      - Maiatza
+:::
+
+# Mi Cronograma
+
+<iframe src="_static/crono.html" width="100%" height="800px" frameborder="0"></iframe>
+
+
+
+:::{mermaid}
+:name:gralbidea
+%%{init: {"gantt": {
+  "barHeight": 40,
+  "fontSize": 24,
+  "sectionFontSize": 24,
+  "barGap": 12,
+  "topPadding": 75,
+  "rightPadding": 75,
+  "leftPadding": 75,
+  "gridLineStartPadding": 10
+}}}%%
+
+gantt
+    title Gradu Amaierako Lanaren Kronograma
+    dateFormat  YYYY-MM
+    
+    section (A) PLANIFIKAZIOA
+    MARKO KONTZEPTUALA ezarri   :b1, 2025-09, 2025-12
+    ESPARRU TEORIKOA mugatu     :b2, 2025-09, 2026-05
+    INFORMANTEAK aukeratu       :b3, 2025-11, 2025-12
+    TRESNAK sortu.              :b4, 2025-11, 2026-02
+
+    section (B) INFORMAZIOA JASOTZEA
+    LANDA LANA.                 :c1, 2025-11, 2026-02
+
+    section (C) ANALISIA
+    DATUEN analisia             :d1, 2026-03, 2026-04
+    EMAITZEN deskribapena.      :d1, 2026-03, 2026-04
+    EMAITZEN eztabaida          :d2, 2026-04, 2026-05
+    ONDORIOAK identifikatu      :d3, 2026-05, 2026-06
+    
+    section (D) ZABALTZEA
+    TXOSTENA_idatzi             :a1, 2025-09, 2026-06  
+
+  
 :::
 
 :::{mermaid}
