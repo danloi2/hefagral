@@ -42,7 +42,7 @@ Nola diseinatzen da **IKERKETA ZIENTIFIKO** bat **HEZKUNTZA** eremuan?
 :::
 
 
-## Zeintzuk dira gomendatzen diren irakurgaiak?
+# Zeintzuk dira gomendatzen diren irakurgaiak?
 
 GRALa egiteko, honako irakurketa hauek interegarriak dira:
 
@@ -234,7 +234,3 @@ Todas las actividades se entregan en los foros del campus virtual, excepto el Pr
 
 Para más detalles sobre cada actividad y acceso a las lecturas, consulta el campus virtual. Recuerda que seguiremos las normas {cite:author}`apaweb` 7ª edición para todas las referencias y citas.
 :::
-
-
-
-
