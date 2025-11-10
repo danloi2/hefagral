@@ -6,7 +6,7 @@ subject: Página Principal
 # abstract: Resumen corto
 # summary: Texto facilitado
 # dedication: Abcabc
-# acknowledgments: Jesús Valverde
+acknowledgments: Daniel Losada
 # keypoints: Metodología, Investigación Educativa, Trabajo Fin de Máster, Programa. 
 site:
   hide_outline: false
@@ -97,13 +97,13 @@ GRALa egiteko, honako irakurketa hauek interegarriak dira:
 
 - Ikertzaile zaren aldetik, zure **JARRERA ZIENTIFIKOA** ri buruz hausnartzea.
 
--***LITERATURAREN BERRIKUSPENA** egitea, hasierako sistematikoa eta eguneratua.
+-**LITERATURAREN BERRIKUSPENA** egitea, hasierako sistematikoa eta eguneratua.
 
--***IKERKETA-ARAZO** garrantzitsu eta bideragarri bat definitzea.
+-**IKERKETA-ARAZO** garrantzitsu eta bideragarri bat definitzea.
 
 -**IKERKETA-GALDERA** egokiak eta argiak ezartzea.
 
--***HELBURU OROKORRA ETA ESPEZIFIKOAK** zehatz-mehatz eta lortzeko moduan formulatzea.
+-**HELBURU OROKORRA ETA ESPEZIFIKOAK** zehatz-mehatz eta lortzeko moduan formulatzea.
 
 - Testuinguruari eta planteatutako helburuei egokitutako **IKERKETA DISEINUA** aukeratzea, estandar etiko zorrotzenak betetzen dituena.
 
