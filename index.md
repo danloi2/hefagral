@@ -6,7 +6,7 @@ subject: Página Principal
 # abstract: Resumen corto
 # summary: Texto facilitado
 # dedication: Abcabc
-acknowledgments: Daniel Losada
+# acknowledgments: Daniel Losada
 # keypoints: Metodología, Investigación Educativa, Trabajo Fin de Máster, Programa. 
 site:
   hide_outline: false
@@ -214,23 +214,16 @@ gitGraph
 :::
 
 
-:::{admonition} Fechas de Entrega Aproximadas
+:::{admonition} Datak
 :class: important
 :name: aprox
 
-Las fechas de entrega son flexibles, excepto la del Proyecto final. Lo fundamental es que desarrolles un marco conceptual sólido para tu investigación.
-:::
-
-:::{admonition} Lugar de entrega
-:class: danger
-:name: lugar
-
-Todas las actividades se entregan en los foros del campus virtual, excepto el Proyecto de Investigación final que se entrega en PDF en la actividad específica.
+Data guztiak malguak dira.
 :::
 
 :::{admonition} Normas APA 7
 :class: seealso
 :name: apa
 
-Para más detalles sobre cada actividad y acceso a las lecturas, consulta el campus virtual. Recuerda que seguiremos las normas {cite:author}`apaweb` 7ª edición para todas las referencias y citas.
+Erreferentziak eta aipuak egiteko {cite:author}`apaweb` 7ª arauak jarraitu behar dira.
 :::
