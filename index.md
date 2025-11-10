@@ -112,13 +112,13 @@ GRALa egiteko, honako irakurketa hauek interegarriak dira:
 
 Durante el curso desarrollarás 8 actividades clave: @actividades
 
-::: {list-table} Lista de Actividades
+::: {list-table} GRAL bat egiteko urratsak
 :header-rows: 1
 :label: actividades
 
    *  - Prozesuaren Atala
       - Bloom Taxonomia
-      - Fecha de Entrega
+      - Datak
    *  - @201_marko.md
       - (1) Ezagutu
       - Irailetik Abendura
